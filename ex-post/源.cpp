@@ -13,7 +13,9 @@ void func(int i) {
 	ss << boost::this_thread::get_id();
 	ss << " param:";
 	ss << to_string(i);
-	cout << ss.str() << endl;
+	ss << endl;
+	string tmp = ss.str();
+	cout.write(tmp.c_str(), tmp.size());
 }
 
 void worker_thread() {
