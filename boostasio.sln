@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "syncTcpClient", "syncTcpCli
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "syncTcpServer", "syncTcpServer\syncTcpServer.vcxproj", "{0AAAC14E-3CDD-469C-99CF-E71B0983A5D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asyncTcpClient", "asyncTcpClient\asyncTcpClient.vcxproj", "{C19C02C8-136E-4633-8B14-0D1DACE57C8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asyncTcpServer", "asyncTcpServer\asyncTcpServer.vcxproj", "{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -173,6 +177,22 @@ Global
 		{0AAAC14E-3CDD-469C-99CF-E71B0983A5D3}.Release|x64.Build.0 = Release|x64
 		{0AAAC14E-3CDD-469C-99CF-E71B0983A5D3}.Release|x86.ActiveCfg = Release|Win32
 		{0AAAC14E-3CDD-469C-99CF-E71B0983A5D3}.Release|x86.Build.0 = Release|Win32
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Debug|x64.ActiveCfg = Debug|x64
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Debug|x64.Build.0 = Debug|x64
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Debug|x86.Build.0 = Debug|Win32
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Release|x64.ActiveCfg = Release|x64
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Release|x64.Build.0 = Release|x64
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Release|x86.ActiveCfg = Release|Win32
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F}.Release|x86.Build.0 = Release|Win32
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Debug|x64.ActiveCfg = Debug|x64
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Debug|x64.Build.0 = Debug|x64
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Debug|x86.Build.0 = Debug|Win32
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Release|x64.ActiveCfg = Release|x64
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Release|x64.Build.0 = Release|x64
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Release|x86.ActiveCfg = Release|Win32
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,5 +200,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7CF291D7-D717-403F-9989-AC19D45F9190} = {3AAA2638-9C53-440C-8A10-9D5B2C89BC4F}
 		{0AAAC14E-3CDD-469C-99CF-E71B0983A5D3} = {3AAA2638-9C53-440C-8A10-9D5B2C89BC4F}
+		{C19C02C8-136E-4633-8B14-0D1DACE57C8F} = {3AAA2638-9C53-440C-8A10-9D5B2C89BC4F}
+		{BA8D5EC2-E0C7-4800-A7C7-9339564881BF} = {3AAA2638-9C53-440C-8A10-9D5B2C89BC4F}
 	EndGlobalSection
 EndGlobal
