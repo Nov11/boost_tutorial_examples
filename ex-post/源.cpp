@@ -33,7 +33,7 @@ int main() {
 	}
 
 	boost::thread_group threads;
-	for (int i = 0; i < 4; i++) {
+	for (int i = 0; i < 6; i++) {
 		threads.create_thread(worker_thread);
 	}
 	boost::this_thread::sleep(boost::posix_time::millisec(500));
