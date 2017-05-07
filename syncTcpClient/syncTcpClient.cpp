@@ -38,6 +38,14 @@ void sync_echo(std::string msg) {
 	std::cout << "server echoed our " << msg << " :" << (copy == msg ? "OK" : "FAIL") << std::endl;
 	sock.close();
 }
+void func(char* ptr) {
+	try {
+		sync_echo(ptr);
+	}
+	catch (std::exception& e) {
+		std::cerr << e.what() << std::endl;
+	}
+}
 
 int main()
 {
@@ -45,7 +53,7 @@ int main()
 	char * message[] = { "John says hi", "so does James", "Lucy just got home", "Boost ASIO", 0 };
 	boost::thread_group threads;
 	for (char** iter = message; *iter; iter++) {
-		threads.create_thread(boost::bind(sync_echo, *iter));
+		threads.create_thread(boost::bind(func, *iter));
 		boost::this_thread::sleep(boost::posix_time::millisec(100));
 	}
 	threads.join_all();
