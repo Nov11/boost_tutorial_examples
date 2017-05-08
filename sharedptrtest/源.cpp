@@ -15,4 +15,5 @@ int main()
 	v.push_back(ptr2);
 	std::cout << (v[0] == ptr) << std::endl;
 	std::cout << (v[1] == ptr) << std::endl;
+	//std::cout << (v[0].get() == ptr.get()) << std::endl;
 }
