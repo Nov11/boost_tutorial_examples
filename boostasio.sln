@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch04syncclient", "ch04syncc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch04syncserver", "ch04syncserver\ch04syncserver.vcxproj", "{EF09A4BF-26D1-4942-8AE4-65DEE6DFF023}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deadlinetimerexpiretest", "deadlinetimerexpiretest\deadlinetimerexpiretest.vcxproj", "{775E045F-9207-453D-96C5-2154C1A0A91E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -273,6 +275,14 @@ Global
 		{EF09A4BF-26D1-4942-8AE4-65DEE6DFF023}.Release|x64.Build.0 = Release|x64
 		{EF09A4BF-26D1-4942-8AE4-65DEE6DFF023}.Release|x86.ActiveCfg = Release|Win32
 		{EF09A4BF-26D1-4942-8AE4-65DEE6DFF023}.Release|x86.Build.0 = Release|Win32
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Debug|x64.ActiveCfg = Debug|x64
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Debug|x64.Build.0 = Debug|x64
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Debug|x86.ActiveCfg = Debug|Win32
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Debug|x86.Build.0 = Debug|Win32
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Release|x64.ActiveCfg = Release|x64
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Release|x64.Build.0 = Release|x64
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Release|x86.ActiveCfg = Release|Win32
+		{775E045F-9207-453D-96C5-2154C1A0A91E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
